@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
         mGameStateTextView.setText(mGame.stringForGameState());
 
         for(int i=0;i<TicTacToeGame.NUM_SQUARES;i++){
-            mButtons[i].setText(mGame.stringForButtonAtIndex());
+            mButtons[i].setText(mGame.stringForButtonAtIndex(i));
         }
     }
 
